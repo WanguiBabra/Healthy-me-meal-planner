@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    color: white; /* Text color */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+  }
+  }
+  
+  nav {
+    background-color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  section {
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: yellow;
+    color: black; /* Change text color on hover */
+  }
+  
+  /* Active link style */
+  nav ul li a.active {
+    background-color: rgb(243, 95, 16);
+    color: black; /* Change text color for active link */
+  }
+
+  /* Table styling */
+#mealTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header */
+  #mealTable th {
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(228, 232, 18); /* Border set to black with 3px thickness */
+    padding: 8px;
+  }
+  
+  /* Table body */
+  #mealTable td {
+    background-color: white;
+    color: black;
+    border: 3px solid black; /* Border set to black with 3px thickness */
+    padding: 10px;
+  }
+  
+  /* Hover effect for rows and columns */
+  #mealTable tr:hover,
+  #mealTable td:hover {
+    background-color: rgb(237, 141, 32);
+  }
+  
+  #mealTable input[type="text"] {
+    width: calc(100% - 16px); /* Adjust for padding */
+    height: calc(100% - 16px); /* Adjust for padding */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Ensure background is transparent */
+    box-sizing: border-box; /* Include padding and border in the width and height */
+    overflow-wrap: break-word; /* Wrap text within the box */
+    font-family: inherit; /* Inherit font family from the parent element (body) */
+    font-size: inherit; /* Inherit font size from the parent element (body) */
+  }
+  
+  
+  
+  #mealTable input[type="reset"] {
+    width: 100%; /* Make the reset button width fill the cell */
+  }
+  #resetBtn {
+    background-color: white; /* Set background color to white */
+    color: orange; /* Set text color to orange */
+    border: 1px solid orange; /* Add orange border */
+    padding: 8px 16px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  #resetBtn:hover {
+    background-color: orange; /* Change background color to orange on hover */
+    color: white; /* Change text color to white on hover */
+  }
+  

@@ -1,0 +1,106 @@
+header {
+    text-align: center;
+  }
+  
+  header img {
+    width: 100%; 
+    height: auto;
+  }
+  
+
+
+body {
+    background-color: black;
+    color: white; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+  }
+  
+  
+  nav {
+    background-color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  section {
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: yellow;
+    color: black; 
+  }
+  
+  
+  nav ul li a.active {
+    background-color: rgb(243, 95, 16);
+    color: black; 
+  }
+  
+  .features .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+
+  }
+  
+  .features .box {
+    width: 300px; 
+    margin: 10px; 
+    padding: 30px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 25px rgb(237, 94, 5); 
+
+  }
+  
+  .features .box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .features .box h3 {
+    margin-top: 10px;
+  }
+  
+  .features .box .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .features .box .btn:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+  
+  
+  
+  
